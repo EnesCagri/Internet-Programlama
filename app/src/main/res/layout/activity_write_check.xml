@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/jetBlack"
+    tools:context=".WriteCheckActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAKBUZ YAZDIRMA EKRANI"
+        android:textSize="28dp"
+        android:padding="20dp"
+        android:textColor="@color/lightText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apartman Adı: "
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:textColor="@color/teal_200"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daire No: "
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:textColor="@color/teal_200"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ad Soyad: "
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:textColor="@color/teal_200"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ay/Yıl: "
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:textColor="@color/teal_200"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutar: "
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:textColor="@color/teal_200"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="@color/lightText"
+        android:backgroundTint="@color/purple_200"
+        android:text="MAKBUZ YAZDIR"
+        android:textSize="20sp"
+        android:layout_margin="35dp"/>
+
+
+
+</LinearLayout>
